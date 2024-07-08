@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Book</title>
+
+    <style>
+      h1 {
+        text-align: center;
+        color: #fb544b;
+      }
+
+      .main {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      img {
+        margin-top: 8px;
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      }
+
+      .title {
+        font-weight: bold;
+        font-size: 18px;
+      }
+
+      button {
+        cursor: pointer;
+        background-color: #fb544b;
+        color: white;
+        border: none;
+        float: right;
+        padding: 8px;
+        border-radius: 4px;
+        margin-left: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Recipe Book</h1>
+
+      <div class="main">
+        <div class="card">
+          <img src="spaghetti.jpg" />
+          <div class="title-container">
+            <span class="title">Spaghetti</span>
+            <button>View Recipe</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="lasagna.jpg" />
+          <div class="title-container">
+            <span class="title">Lasagna</span>
+            <button>View Recipe</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="pizza.jpg" />
+          <div class="title-container">
+            <span class="title">Pizza</span>
+            <button>View Recipe</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="gelato.jpg" />
+          <div class="title-container">
+            <span class="title">Gelato</span>
+            <button>View Recipe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

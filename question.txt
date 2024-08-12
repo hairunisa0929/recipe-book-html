@@ -1,0 +1,31 @@
+Lengkapi code pada file index.html
+
+
+
+Anda ingin membuat sebuah website recipe book. Dalam website tersebut terdapat gambar, nama makanan, dan juga button untuk melihat detail.
+
+
+
+Berikut tampilan web recipe book yang harus Anda buat:
+
+
+
+
+
+
+
+Instruksi:
+
+Dalam elemen <div> dengan class "main", tambahkan 3 elemen <div> dengan class "card".
+Dalam masing-masing card tersebut, tambahkan tag <img>. Berikut url gambar yang dapat Anda gunakan:
+Spaghetti: http://tiny.cc/spaghettircpbk
+Lasagna: http://tiny.cc/lasagnarcpbk
+Pizza: http://tiny.cc/pizzarcpbk
+Dalam masing-masing card, tambahkan juga elemen <span> dengan class "title" yang berisi nama-nama makanan, yaitu Spaghetti, Lasagna, dan Pizza.
+Pada masing-masing card, tambahkan juga elemen <button> dengan teks View Recipe.
+Ubah warna tulisan <h1> menjadi merah dengan code hex #fb544b.
+Atur agar <span> dengan class "title" memiliki font-weight bold dan font-size 18px.
+Tambahkan properti baru untuk mengatur height gambar menjadi 100px.
+Atur warna background button menjadi #fb544b.
+
+
